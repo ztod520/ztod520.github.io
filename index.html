@@ -1,19 +1,38 @@
-<!DOCTYPE html>
-<html lang="zh-CN">
+<html lang="en">
 <head>
-	<meta charset="utf-8">
-	<title>UFO</title>
-	<link rel="stylesheet" href="template.css">
+<meta charset="UTF-8">
+<title>UFO</title>
+<!-- <link rel="stylesheet" href="登录界面.css"> -->
 </head>
 <body>
-	<div class="bg-img"></div>
-	<header>Only For U</header>
-	<main>
-		<h1>I am very sad.<h1>
-	</main>
-	<audio controls="controls" height="100" width="100">
-  		<source src="https://link.jscdn.cn/1drv/aHR0cHM6Ly8xZHJ2Lm1zL3UvcyFBc3lXcG0xbkhpV1dqSExqMmhxdnoxRGtQY3R0P2U9V1VQVTR5.mp3" type="audio/mp3" />
-		<embed height="100" width="100" src="https://link.jscdn.cn/1drv/aHR0cHM6Ly8xZHJ2Lm1zL3UvcyFBc3lXcG0xbkhpV1dqSExqMmhxdnoxRGtQY3R0P2U9V1VQVTR5.mp3" />
-	</audio>
+<div class="login">
+<h1>Welcome</h1>
+<div class="text">
+<i class="fa fa-user-o" aria-hidden="true"></i><!-- Font Awesome -->
+<input type="text" placeholder="Username" id="name">
+</div>
+<div class="text">
+<i class="fa fa-lock" aria-hidden="true"></i><!-- Font Awesome -->
+<input type="password" placeholder="Password" id="pass">
+</div>
+<button οnclick="login()">登录</button>
+</div>
+<script type="text/javascript">
+function login(){
+var username = document.getElementById("name").value;
+var password = document.getElementById("pass").value;
+if(username=="123456" && password=="123456"){
+alert("登录成功");
+window.location = "520.html";
+return false;
+}
+else{
+alert("账号或密码错误");
+window.location.href= "index.html";
+return false;
+}
+}
+</script>
+
 </body>
 </html>
