@@ -283,7 +283,7 @@ button {
 }
 
 .e-nav__link:after {
-  content: "Home Page";
+  content: "TRY AGAIN";
 }
 
 .e-nav__link:hover:before {
@@ -366,7 +366,7 @@ button {
 
 .cable {
   width: 8px;
-    height: 248px;
+    height: 100px;
     background-image: linear-gradient(rgb(32 148 218 / 70%), rgb(193 65 25)), linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7));
 }
 
@@ -417,7 +417,7 @@ button {
     position: absolute;
     left: 0px;
     right: 0px;
-    top: 270px;
+    top: 132px;
     margin: 0px auto;
     z-index: 1;
     border-radius: 90px 90px 0px 0px;
@@ -511,7 +511,7 @@ button {
     zoom: .6;
   }
   .error__content {
-    padding-top: 180px;
+    padding-top: 80px;
   }
   }
 @media (max-width: 480px) {
