@@ -24,7 +24,7 @@ canvas{
   background-image: url("https://dlink.host/1drv/aHR0cHM6Ly8xZHJ2Lm1zL3UvcyFBc3lXcG0xbkhpV1dqZ3UxbzlfemZJVTRUazZyP2U9Y3Jmazl4.avif"); 
   background-repeat: no-repeat; 
   background-size: cover;
-  background-position: 0; 
+  background-position: center; 
   z-index:0;
 }
 .text{
